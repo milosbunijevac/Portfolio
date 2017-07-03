@@ -1,0 +1,19 @@
+{
+  "name": "milosport",
+  "version": "1.0.0",
+  "description": "A display of my software development abilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milosbunijevac/Portfolio.git"
+  },
+  "author": "Milos Bunijevac",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/milosbunijevac/Portfolio/issues"
+  },
+  "homepage": "https://github.com/milosbunijevac/Portfolio#readme"
+}
