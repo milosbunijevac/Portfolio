@@ -2,9 +2,9 @@ var webpack = require('webpack');
 var path = require('path');
 
 var config = {
-  entry: 'index.jsx',
+  entry: path.join(__dirname, '/client/', 'index.jsx'),
   output: {
-    path: '/public/',
+    path: path.join(__dirname + '/client/public'),
     filename: 'bundle.js'
   },
   module: {
