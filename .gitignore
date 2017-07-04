@@ -1,2 +1,3 @@
-client/bundle.js
-client/bundle.map.js
+client/public/bundle.js
+client/public/bundle.js.map
+node_modules/
