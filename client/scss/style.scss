@@ -1,0 +1,26 @@
+@import 'vendors/_bootstrap.scss';
+
+.topPicture {
+  width:100%;
+}
+
+.logoRow {
+  margin-left: 0px;
+  margin-right: 0px;
+  
+  .col-md-2 {
+
+    img {
+      width: 100%;
+      height: 80%;
+    }
+
+  }
+
+  .col-md-2:nth-child(odd) {
+    background-color:antiquewhite;
+  }
+  .col-md-2:nth-child(even) {
+    background-color: lightblue;
+  }
+}
