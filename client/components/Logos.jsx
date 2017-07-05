@@ -31,7 +31,6 @@ class Logos extends React.Component {
       </div>
     );
   }
-
 }
 
 export default Logos;
