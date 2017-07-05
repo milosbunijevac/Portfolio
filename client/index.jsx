@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Head from './components/Head.jsx';
+import Logos from './components/Logos.jsx';
 
 class Index extends React.Component {
   constructor(props){
@@ -10,7 +11,10 @@ class Index extends React.Component {
   render(){
     return(
       <div>
-        <Head />
+        <div className="container">
+          <Head />
+          <Logos />
+        </div>
       </div>
     );
   }

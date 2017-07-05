@@ -6,8 +6,8 @@
   "scripts": {
     "start": "nodemon ./server/server.js --history-api-fallback",
     "dev": "webpack --watch",
-    "build": "webpack -p",
-    "postinstall": "webpack -p"
+    "build": "webpack",
+    "postinstall": "webpack"
   },
   "repository": {
     "type": "git",

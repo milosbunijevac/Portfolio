@@ -8,26 +8,15 @@ class Head extends React.Component {
   render() {
     return(
       <div>
-        <header>
-          <div id="header-inner">
-            <a href="index-html" id="logo"></a>
-            <nav>
-              <a href="#" id="menu-icon"></a>
-              <ul>
-                <li><a href="index.html" className="current">Home</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Built Apps</a></li>
-                <li><a href="#">About Me</a></li>
-              </ul>
-            </nav>
-          </div>
-        </header>
+        <section>
 
-        <section className="banner">
-          <div className="banner-inner">
-            <img src="img/roadbanner.jpg"></img>
-          </div>
+          <img src="../img/roadbanner.jpg" className="profile-img"></img>
+          <header>
+            <h2>Hello, <br/> my name is <strong>Milos Bunijevac</strong> and I am a web developer.</h2>
+          </header>
+
         </section>
+
       </div>
     );
   }
