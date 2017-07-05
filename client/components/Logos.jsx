@@ -8,7 +8,7 @@ class Logos extends React.Component {
   render() {
     return(
       <div>
-        <div className="row">
+        <div className="row logoRow">
           <div className="col-md-2">
             <img src="../img/reactlogo.png"></img>
           </div>
